@@ -1,0 +1,24 @@
+table{
+    width: 85%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+thead th, tbody td{
+    padding: 0.75rem;
+    text-align: center;
+    border: 1px solid rgb(233, 224, 224);
+}
+
+thead th{
+    background-color:#41bd74;
+}
+
+tbody tr:nth-child(2){
+    background-color: #cccccca4;
+}
